@@ -231,6 +231,10 @@ h2::after {
     border-radius: 8px;
 }
 
+#rua1{
+    justify-content: center;
+}
+
 /* RODAPÉ */
 .main-footer {
     background-color: var(--color-dark);
