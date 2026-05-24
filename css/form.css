@@ -55,7 +55,7 @@ input:focus{
 }
 
 /* Botão */
-#btn{
+.btn{
     background-color: #7c3aed;
     color: white;
     font-size: 16px;
@@ -64,6 +64,6 @@ input:focus{
     cursor: pointer;
     transition: 0.3s;
 }
-#btn:hover{
+.btn:hover{
     background-color: #5b21b6;
 }

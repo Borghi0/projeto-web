@@ -1,1 +1,0 @@
-diretório das figuras. remover este .txt quando tiver pelo menos uma figura no diretório.
