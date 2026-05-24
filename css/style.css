@@ -140,6 +140,7 @@ h1, h2, h3 {
 
 .info-section, .cards-section, .gallery-section {
     margin-bottom: 60px;
+    text-align: center;
 }
 
 h2 {
@@ -222,7 +223,7 @@ h2::after {
     justify-content: center;
     margin: auto;
     margin-top: 30px;
-    
+    text-align: center;
 }
 
 .img-fluid {
