@@ -1,12 +1,114 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <title>Document</title>
+    <title>EcoLuz Comunitária - ODS 7</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <svg class="icon" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 2F2 12h3v8h6v-6h2v6h6v-8h3L12 2z"/></svg>
+                <span>EcoLuz</span>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#sobre">Sobre a ODS 7</a></li>
+                    <li><a href="#dicas">Dicas de Consumo</a></li>
+                    <li><a href="#comunidade">Ações Locais</a></li>
+                    <li><a href="login.html" class="btn-nav">Área do Usuário</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Energia Limpa e Acessível para Nossa Comunidade</h1>
+            <p>Promovendo o desenvolvimento sustentável para a população através da conscientização e cooperação energética.</p>
+            <a href="#sobre" class="btn-cta">Saiba Mais</a>
+        </div>
+    </section>
+
+    <main class="content-container">
+        
+        <section id="sobre" class="info-section">
+            <h2>O que é a ODS 7?</h2>
+            <div class="grid-2-col">
+                <div class="text-box">
+                    <p>O Objetivo de Desenvolvimento Sustentável 7 visa garantir o acesso a fontes de energia confiáveis, sustentáveis, modernas e a preços acessíveis para todos as pessoas. No ambiente urbano, isso se traduz em eficiência no consumo e transição para matrizes limpas.</p>
+                </div>
+                <div class="image-box">
+                    <img src="figs/ods_7.png" width="200" height="400" alt="ODS 7 - Energia Limpa e Acessível">
+                </div>
+            </div>
+        </section>
+
+        <section id="dicas" class="cards-section">
+            <h2>Nossos Pilares de Atuação</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <svg class="icon-card" viewBox="0 0 24 24" width="32" height="32"><path fill="currentColor" d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>
+                    <h3>Eficiência Energética</h3>
+                    <p>Substituir lâmpadas incandescentes por LED e retirar aparelhos do modo stand-by gera economia imediata na conta local.</p>
+                </div>
+                <div class="card">
+                    <img src="figs/energia_solar.png" alt="Ícone ilustrativo de energia renovável" class="card-thumb-img">
+                    <h3>Energia Renovável</h3>
+                    <p>Incentivamos e mapeamos projetos comunitários para a implementação de microgeradores solares em telhados de bairros periféricos.</p>
+                </div>
+                <div class="card">
+                    <img src="figs/poço_canadense.png" alt="Ilustração de tubulações sob o solo" class="card-thumb-img"> 
+                    <h3>Poço Canadense</h3>
+                    <p>Uma solução bioclimática que utiliza a temperatura do subsolo para climatizar ambientes de forma natural, reduzindo drasticamente o consumo de energia elétrica.</p>
+                </div>
+                <div class="card">
+                    <img src="figs/capacitação.png" alt="Ícone ilustrativo de educação ambiental" class="card-thumb-img">
+                    <h3>Educação Ambiental</h3>
+                    <p>Oficinas práticas gratuitas para capacitar eletricistas e moradores sobre instalações elétricas seguras e otimizadas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="comunidade" class="gallery-section">
+            <h2>Transformação em Foco</h2>
+            <p>Veja os impactos de pequenos projetos de iluminação pública fornecendo segurança, visibilidade e principalmente eficiência energética.</p>
+            <div class="gallery-container">
+                <img src="figs/iluminação01.jpg" alt="Lâmpadas de LED iluminando rua 1" class="img-fluid">
+            </div>
+            <div class="gallery-container">
+                <img src="figs/iluminação02.jpg" alt="Lâmpadas de LED iluminando praça 1" class="img-fluid">
+            </div>
+            <div class="gallery-container">
+                <img src="figs/iluminação03.jpg" alt="Lâmpadas de LED iluminando praça 2" class="img-fluid">
+            </div>
+            <div class="gallery-container">
+                <img src="figs/iluminação04.jpg" alt="Lâmpadas de LED iluminando rua 2" class="img-fluid">
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <p>&copy; 2026 EcoLuz Comunitária - UTFPR-CP. Desenvolvido para o Projeto 1.</p>
+            
+            <div class="team-cv">
+                <span>Currículos dos Integrantes:</span>
+                <ul>
+                    <li><a href="https://github.com/seu-usuario" target="_blank" rel="noopener">Gabriel Pinheiro Ferrari</a></li>
+                    <li><a href="https://github.com/seu-usuario" target="_blank" rel="noopener">João Pedro Trevisan Borghi</a></li>
+                    <li><a href="https://github.com/seu-usuario" target="_blank" rel="noopener">Mario Issamu Barbuglio Morita</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
