@@ -67,3 +67,15 @@ input:focus{
 .btn:hover{
     background-color: #5b21b6;
 }
+
+/* Botão de link */
+#link-cad{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+}
+#link-cad:hover{
+    color: #5b21b6;
+}
