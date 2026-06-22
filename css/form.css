@@ -68,7 +68,6 @@ input:focus{
     cursor: pointer;
     transition: 0.3s;
 }
-
 .btn:hover{
     background-color: #5b21b6;
 }
