@@ -140,6 +140,7 @@ h1, h2, h3 {
 
 .info-section, .cards-section, .gallery-section {
     margin-bottom: 60px;
+    text-align: center;
 }
 
 h2 {
@@ -170,7 +171,9 @@ h2::after {
 }
 
 .image-box img {
-    width: 100%;
+    width: 25lvb;
+    display: flex;
+    margin: 0 auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -214,19 +217,23 @@ h2::after {
 
 /* GALERIA */
 .gallery-container {
-    width: 800px;
-    height: 800px;
+    width: 600px;
+    height: 350px;
     display: flex;
     justify-content: center;
     margin: auto;
     margin-top: 30px;
-    
+    text-align: center;
 }
 
 .img-fluid {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+}
+
+#rua1{
+    justify-content: center;
 }
 
 /* RODAPÉ */

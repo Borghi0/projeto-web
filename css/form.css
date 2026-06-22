@@ -9,7 +9,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(135deg, #4f46e5, #7c3aed);
-    height: 100vh;
+    padding: 20px 0;
+    height: auto;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,10 +20,12 @@ body{
 /* Caixa do formulário */
 section{
     background-color: #fff;
-    padding: 35px;
+    padding: 45px;
     border-radius: 12px;
-    width: 350px;
+    width: 450px;
+    max-height: 90vh;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    overflow-y: auto;
 }
 
 /* Título */
@@ -55,7 +59,7 @@ input:focus{
 }
 
 /* Botão */
-#btn{
+.btn{
     background-color: #7c3aed;
     color: white;
     font-size: 16px;
@@ -64,6 +68,95 @@ input:focus{
     cursor: pointer;
     transition: 0.3s;
 }
-#btn:hover{
+
+.btn:hover{
     background-color: #5b21b6;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.btn-secondary {
+    background: #6b7280;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.btn-secondary:hover {
+    background: #4b5563;
+}
+
+.btn-danger {
+    background: #dc2626;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.btn-danger:hover {
+    background: #b91c1c;
+}
+
+.search-box {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px dashed #7c3aed;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.search-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.btn-delete-item {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+    margin: 0;
+    font-weight: bold;
+}
+
+.btn-delete-item:hover {
+    background: #dc2626;
+}
+
+/* Botão de link */
+#link-cad{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+}
+#link-cad:hover{
+    color: #5b21b6;
+}
+
+#user-list {
+    margin-top: 15px;
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+
+#user-list li {
+    background: #f3f4f6;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
 }

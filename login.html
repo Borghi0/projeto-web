@@ -11,7 +11,7 @@
         <section>
             <h1>Login</h1>
 
-            <form action="index.html">
+            <form onsubmit="login(event)">
                 <label for="email">E-mail:</label><br>
                 <input type="email" id="email" name="email" placeholder="E-mail de login" required>
                 <br><br>
@@ -20,10 +20,18 @@
                 <input type="password" id="pwd" name="pwd" required>
                 <br><br>
 
-                <input id="btn" type="submit" value="Entrar">
+                <input class="btn" type="submit" value="Entrar">
             </form>
+
+            <br>
+            
+            <a id="link-cad" href="cadastro.html">
+                Ir para Cadastro
+            </a>
             
         </section>
     </main>
+    
+    <script src="js/main.js"></script>
 </body>
 </html>
