@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administração de Usuários</title>
+    
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Painel Admin</h1>
+
+            <form id="adm-form">
+                <div class="form-group">
+                    <label for="adm-name">Nome:</label>
+                    <input type="text" id="adm-name" placeholder="Nome do usuário" required>
+                </div>
+               
+                <div class="form-group">
+                    <label for="adm-email">E-mail:</label>
+                    <input type="email" id="adm-email" placeholder="exemplo@mail.com" required>
+                </div>
+              
+                <input class="btn" type="submit" value="Cadastrar">
+                
+                <button type="button" class="btn btn-secondary" id="btn-clear">Limpar Campos</button>
+                
+            </form>
+          
+            <div class="search-box">
+                <label for="search">Pesquisar Usuário (Nome ou E-mail):</label>
+                <input type="text" id="search" placeholder="Digite para filtrar...">
+            </div>
+          
+            <ul id="user-list"></ul>
+            
+            <button type="button" class="btn btn-danger" id="btn-clear-all">Excluir Todos os Itens</button>
+            
+        </section>
+    </main>
+
+    <script src="js/adm.js"></script>
+</body>
+</html>
