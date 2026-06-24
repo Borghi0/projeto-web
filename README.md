@@ -150,10 +150,14 @@ https://jigsaw.w3.org/css-validator/
 
 ---
 
-## Vídeo de Apresentação
-
+## Vídeos de Apresentação
+- Projeto 1:
 ```txt
 https://youtu.be/hMKZZPYbFQg
+```
+- Projeto 2:
+```txt
+https://youtu.be/XuVQE0pEozk
 ```
 
 ---
